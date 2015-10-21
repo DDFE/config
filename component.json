@@ -1,0 +1,6 @@
+{
+  "name": "config",
+  "version": "0.0.1",
+  "main": "config.js",
+  "description": "简单的配置类，用于页面级别的配置数据存取"
+}
