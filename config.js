@@ -4,7 +4,7 @@ exports.get = function (key, defaultVal) {
 	if (conf.hasOwnProperty(key)) {
 		return conf[key];
 	}
-	return defaultVal || undefined;
+	return defaultVal;
 };
 
 exports.set = function (key, val) {
